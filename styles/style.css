@@ -44,6 +44,12 @@ main {
     height: 240px;
 }
 
+.fifa-title:hover {
+    color: #DD0000;
+    transform: scale(1.2);
+    transition: transform 2s ease;
+}
+
 .fifa-paragraph {
     color: white;
     text-align: left;
@@ -54,26 +60,38 @@ main {
 
 .watch-live-button {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    text-align: center;
     background-color: #DD0000;
     width: 187px;
     height: 56px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-top: 30px;
 }
 
 .watch-live-button:hover {
-    background-color: #6d6f6d;
+    background-color: orangered;
     box-shadow: 10px 5px 50px rgb(98, 95, 95);
+    /* width: 220px; */
+    padding: 0 10px;
+    transition: padding 1s ease;
 }
 
 .watch-live-button a {
     text-decoration: none;
+    text-align: center;
     font-size: 20px;
     font-weight: 300;
     color: white;
 
+}
+
+.fa-chevron-right,
+.watch-live-button a:hover {
+
+    font-size: 25px;
+    transition: font-size 1s ease;
 }
 
 /* .fifa-logo {
@@ -98,6 +116,8 @@ main {
     margin-top: 200px;
     margin-right: 30px;
 }
+
+
 
 
 
@@ -182,8 +202,13 @@ main {
     border-radius: 18px;
 }
 
+.blog:hover {
+    transform: scale(1.2);
+    transition: transform 2s ease;
+}
+
 .thumbnail img {
-    width: 330px;
+    width: 331px;
     height: 200px;
     border-radius: 10px 10px 0px 0px;
 
