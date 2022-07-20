@@ -165,7 +165,7 @@ main {
 
 .button:hover {
     background-color: #DD0000;
-    box-shadow: 10px 5px 30px #980606;
+    box-shadow: 10px 10px 30px #980606;
 }
 
 /* blogs start */
@@ -214,14 +214,14 @@ main {
 
 .blog-button a:hover {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 
 
 }
 
 .blog-button:hover {
     background-color: rgb(198, 188, 188);
-    /* box-shadow: 10px 5px 20px rgb(11, 11, 11); */
+    box-shadow: 10px 5px 20px rgb(209, 203, 203);
 }
 
 .last-seen {
@@ -276,7 +276,7 @@ main {
 
 .view-all-button:hover {
     background-color: #DD0000;
-    box-shadow: 10px 5px 30px #8f0505;
+    box-shadow: 10px 10px 20px #8f0505;
 }
 
 .view-all a {
