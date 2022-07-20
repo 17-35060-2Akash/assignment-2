@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@500&display=swap');
 
 body {
     font-family: 'Inter', sans-serif;
@@ -7,8 +8,10 @@ body {
 
 /* main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin: 50px 140px;
+    align-items: center;
+
 
 } */
 
@@ -61,33 +64,202 @@ body {
 .watch-live-button a {
     text-decoration: none;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 300;
     color: white;
 
 }
 
-.fifa-logo {
-    position: relative;
-    bottom: 20px;
-    left: 520px;
+/* .fifa-logo {
     height: 200px;
-}
+    margin-top: 100px;
+    margin-left: 400px;
+
+} */
 
 .image-section {
-    display: flex;
-    justify-content: center;
+
     width: 50%;
 
 }
 
 
 .player-image {
-    position: relative;
-    right: 70px;
-    top: 138px;
-
+    margin-top: 276px;
+    margin-right: 30px;
 }
 
 
 
 /* top banner ends */
+
+/* 2nd portion starts  */
+
+.option-blogs-container {
+    display: flex;
+    margin-top: 130px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #161616;
+    width: 312px;
+    height: 312px;
+    border-radius: 10px;
+    margin-top: 24px;
+
+
+}
+
+.options .button a {
+    text-decoration: none;
+
+}
+
+.button {
+    background-color: #FFFFFF;
+    font-size: 20px;
+    width: 252px;
+    height: 64px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+
+
+}
+
+/* blogs start */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.blog {
+    margin: 24px;
+}
+
+.thumbnail img {
+    width: 312px;
+    height: 175px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.blog-info {
+    margin: 20px;
+}
+
+.blog-button {
+    background-color: white;
+    border: 1px solid gray;
+    width: 100px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    /* margin-top: 20px; */
+
+}
+
+.blog-button a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.last-seen {
+    display: flex;
+    color: gray;
+}
+
+.fa-comment-dots {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.fa-clock {
+    margin-right: 10px;
+}
+
+/* blogs end  */
+
+/* 2nd portion ends  */
+
+/* footer starts  */
+
+#last-section {
+
+
+    height: 444px;
+
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 20px;
+    padding-bottom: 40px; */
+    background-image: linear-gradient(black, rgb(35, 33, 33));
+    color: white;
+    /* margin: 0px -20px -20px -20px; */
+
+}
+
+#goal {
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: 40px;
+    color: antiquewhite;
+}
+
+
+
+hr {
+
+    width: 90%;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin: 20px;
+    margin-top: 40px;
+
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.platform-icons a {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 30px 10px;
+
+}
+
+.platform-icons {
+    padding: 30px;
+
+}
+
+#copy-right {
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: 16px;
+    color: antiquewhite;
+
+}
+
+
+/* footer ends  */
